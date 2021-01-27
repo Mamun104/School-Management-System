@@ -1,0 +1,132 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+
+}
+.social{
+	text-align: center;
+	background-color: black;
+	color: blue;
+}
+
+
+.header1{
+
+	text-align: left;
+	background-color:black;
+
+	height:300px;
+
+	color: blue;
+}
+.header1 h2{
+	text-align: center;
+}
+
+.header2{
+	background-color: black;
+	color: white;
+	text-align: center;
+
+	height: 100px;
+	margin-top: : 360px;
+	padding-top: 20px;
+
+}
+
+.btn{
+	border: 1px solid #3498b;
+	background : none;
+	padding: 10px 20px;
+	font-size: 10px;
+	cursor: pointer;
+	font-family: "montserrat";
+	margin: 10px;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+}
+
+.btn1,btn2{
+	color: #3498db;
+}
+.btn3,btn4{
+	color: #fff;
+}
+.btn5,btn6{
+	color: #3498db;
+}
+.btn7
+	color: #fff;
+}
+.btn1:hover,btn2:hover{
+	color: #fff;
+}
+.btn3:hover,btna:hover{
+	color: #3498db;
+}
+.btn5:hover,btn6:hover{
+	color: #fff;
+}
+.btn7:hover{
+	color: #3498db;
+}
+
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn1::before,.btn3::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn2::before,.btn4::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.btn5::before,.btn6::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+
+
+.btn1:hover::before,.btn2:hover::before{
+  height: 180%;
+}
+.btn3:hover::before,.btn4:hover::before{
+  height: 0%;
+}
+.btn5:hover::before,.btn6:hover::before{
+  height: 0%;
+}
+
+.btn7:hover::before{
+  height: 0%;
+}
+
+
+section{
+
+
+text-align: center;
+
+background-color:yellow;
+color:black;
+}
+
+footer{
+
+	text-align: center;
+	background-color: black;
+	color: blue;
+}
